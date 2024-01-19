@@ -55,10 +55,10 @@ var citaController = {
         
         var horaFin = new Date(dateTime.getTime() + 60 * 60 * 1000).toTimeString().split(' ')[0];
 
-        var especie = req.body.species;
+        var especie = req.body.especie;
         var idBoleta = null;
         var idVet = null;
-        
+
         if (especie == 'Felino') {
             idVet = 'vet1';
         }
